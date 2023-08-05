@@ -1,5 +1,5 @@
 {
-    "name": "djchen/oauth2-fitbit",
+    "name": "flyingflip/oauth2-fitbit",
     "description": "Fitbit OAuth 2.0 Client Provider for The PHP League OAuth2-Client",
     "license": "MIT",
     "authors": [
@@ -7,6 +7,11 @@
             "name": "Dan Chen",
             "email": "dan@djc.me",
             "homepage": "https://www.djc.me"
+        },
+        {
+            "name": "Michael R. Bagnall",
+            "email": "mbagnall@flyingflip.com",
+            "homepage": "https://www.flyingflip.com"
         }
     ],
     "keywords": [
@@ -30,12 +35,12 @@
     },
     "autoload": {
         "psr-4": {
-            "djchen\\OAuth2\\Client\\": "src/"
+            "FlyingFlip\\OAuth2\\Client\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "djchen\\OAuth2\\Client\\Test\\": "tests/src/"
+            "FlyingFlip\\OAuth2\\Client\\Test\\": "tests/src/"
         }
     }
 }
