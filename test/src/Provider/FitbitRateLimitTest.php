@@ -1,8 +1,8 @@
 <?php
 
-namespace djchen\OAuth2\Client\Test\Provider;
+namespace flyingflip\OAuth2\Client\Test\Provider;
 
-use djchen\OAuth2\Client\Provider\Fitbit;
+use flyingflip\OAuth2\Client\Provider\Fitbit;
 use PHPUnit_Framework_TestCase as TestCase;
 use Psr\Http\Message\ResponseInterface;
 

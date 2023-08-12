@@ -1,6 +1,6 @@
 <?php
 
-namespace djchen\OAuth2\Client\Provider;
+namespace flyingflip\OAuth2\Client\Provider;
 
 use Psr\Http\Message\ResponseInterface;
 

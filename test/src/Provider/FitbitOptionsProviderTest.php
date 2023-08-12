@@ -1,6 +1,6 @@
 <?php
 
-namespace djchen\OAuth2\Client\Test\Provider;
+namespace flyingflip\OAuth2\Client\Test\Provider;
 
 use PHPUnit_Framework_TestCase as TestCase;
 
