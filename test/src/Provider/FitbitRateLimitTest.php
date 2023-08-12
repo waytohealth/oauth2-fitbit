@@ -1,6 +1,6 @@
 <?php
 
-namespace flyingflip\OAuth2\Client\Test\Provider;
+namespace FlyingFlip\OAuth2\Client\Test\Provider;
 
 use flyingflip\OAuth2\Client\Provider\Fitbit;
 use PHPUnit_Framework_TestCase as TestCase;

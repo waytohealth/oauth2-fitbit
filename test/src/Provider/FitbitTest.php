@@ -1,12 +1,12 @@
 <?php
 
-namespace flyingflip\OAuth2\Client\Test\Provider;
+namespace FlyingFlip\OAuth2\Client\Test\Provider;
 
 use GuzzleHttp\Client;
 use League\OAuth2\Client\Token\AccessToken;
 use Psr\Http\Message\ResponseInterface;
-use flyingflip\OAuth2\Client\Provider\Fitbit;
-use flyingflip\OAuth2\Client\Provider\FitbitOptionsProvider;
+use FlyingFlip\OAuth2\Client\Provider\Fitbit;
+use FlyingFlip\OAuth2\Client\Provider\FitbitOptionsProvider;
 use PHPUnit_Framework_TestCase as TestCase;
 
 class FitbitTest extends TestCase
