@@ -193,11 +193,10 @@ class Fitbit extends AbstractProvider
     {
         $options = $this->getOptionProvider()
             ->getAccessTokenOptions(self::METHOD_POST, []);
+        $options['body'] = $this->buildQueryString(['token' => $accessToken->getToken()]);
 
-        $uri = $this->appendQuery(
-            self::BASE_FITBIT_API_URL.'/oauth2/revoke',
-            $this->buildQueryString(['token' => $accessToken->getToken()])
-        );
+        $uri = self::BASE_FITBIT_API_URL.'/oauth2/revoke';
+
         $request = $this->getRequest(self::METHOD_POST, $uri, $options);
 
         return $this->getResponse($request);
