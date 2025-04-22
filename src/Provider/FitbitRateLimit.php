@@ -1,6 +1,6 @@
 <?php
 
-namespace FlyingFlip\OAuth2\Client\Provider;
+namespace waytohealth\OAuth2\Client\Provider;
 
 use Psr\Http\Message\ResponseInterface;
 
