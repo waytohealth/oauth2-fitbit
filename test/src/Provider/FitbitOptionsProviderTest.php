@@ -1,10 +1,10 @@
 <?php
 
-namespace FlyingFlip\OAuth2\Client\Test\Provider;
+namespace waytohealth\OAuth2\Client\Test\Provider;
 
 use PHPUnit_Framework_TestCase as TestCase;
 
-use djchen\OAuth2\Client\Provider\FitbitOptionsProvider;
+use waytohealth\OAuth2\Client\Provider\FitbitOptionsProvider;
 
 class FitbitOptionsProviderTest extends TestCase
 {
