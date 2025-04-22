@@ -1,8 +1,8 @@
 <?php
 
-namespace FlyingFlip\OAuth2\Client\Test\Provider;
+namespace waytohealth\OAuth2\Client\Test\Provider;
 
-use flyingflip\OAuth2\Client\Provider\Fitbit;
+use waytohealth\OAuth2\Client\Provider\Fitbit;
 use PHPUnit_Framework_TestCase as TestCase;
 use Psr\Http\Message\ResponseInterface;
 
