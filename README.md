@@ -20,7 +20,7 @@ The following versions of PHP are supported.
 To install, use composer:
 
 ```
-composer require djchen/oauth2-fitbit
+composer require waytohealth/oauth2-fitbit
 ```
 
 ## Usage
@@ -28,7 +28,7 @@ composer require djchen/oauth2-fitbit
 ### Authorization Code Grant
 
 ```php
-use djchen\OAuth2\Client\Provider\Fitbit;
+use waytohealth\OAuth2\Client\Provider\Fitbit;
 
 $provider = new Fitbit([
     'clientId'          => '{fitbit-oauth2-client-id}',
@@ -116,7 +116,7 @@ if (!isset($_GET['code'])) {
 Once your application is authorized, you can refresh an expired token using a refresh token rather than going through the entire process of obtaining a brand new token. To do so, simply reuse this refresh token from your data store to request a refresh.
 
 ```php
-$provider = new djchen\OAuth2\Client\Provider\Fitbit([
+$provider = new waytohealth\OAuth2\Client\Provider\Fitbit([
     'clientId'          => '{fitbit-oauth2-client-id}',
     'clientSecret'      => '{fitbit-client-secret}',
     'redirectUri'       => 'https://example.com/callback-url'
@@ -141,11 +141,11 @@ $ ./vendor/bin/phpunit
 
 ## Contributing
 
-Please see [CONTRIBUTING](https://github.com/djchen/oauth2-fitbit/blob/master/CONTRIBUTING.md) for details.
+Please see [CONTRIBUTING](https://github.com/waytohealth/oauth2-fitbit/blob/master/CONTRIBUTING.md) for details.
 
 ## License
 
-The MIT License (MIT). Please see [License File](https://github.com/djchen/oauth2-fitbit/blob/master/LICENSE) for more information.
+The MIT License (MIT). Please see [License File](https://github.com/waytohealth/oauth2-fitbit/blob/master/LICENSE) for more information.
 
 [PSR-1]: https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-1-basic-coding-standard.md
 [PSR-2]: https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-2-coding-style-guide.md
