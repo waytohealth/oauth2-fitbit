@@ -1,5 +1,5 @@
 {
-    "name": "flyingflip/oauth2-fitbit",
+    "name": "waytohealth/oauth2-fitbit",
     "description": "Fitbit OAuth 2.0 Client Provider for The PHP League OAuth2-Client",
     "license": "MIT",
     "authors": [
