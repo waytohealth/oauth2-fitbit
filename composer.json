@@ -12,6 +12,11 @@
             "name": "Michael R. Bagnall",
             "email": "mbagnall@flyingflip.com",
             "homepage": "https://www.flyingflip.com"
+        },
+        {
+            "name": "Way To Health",
+            "email": "dev@waytohealth.org",
+            "homepage": "https://www.waytohealth.org"
         }
     ],
     "keywords": [
@@ -35,12 +40,12 @@
     },
     "autoload": {
         "psr-4": {
-            "FlyingFlip\\OAuth2\\Client\\": "src/"
+            "waytohealth\\OAuth2\\Client\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "FlyingFlip\\OAuth2\\Client\\Test\\": "tests/src/"
+            "waytohealth\\OAuth2\\Client\\Test\\": "tests/src/"
         }
     }
 }
