@@ -45,7 +45,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "waytohealth\\OAuth2\\Client\\Test\\": "tests/src/"
+            "waytohealth\\OAuth2\\Client\\Test\\": "test/src/"
         }
     }
 }
